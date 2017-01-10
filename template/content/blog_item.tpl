@@ -68,18 +68,3 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="container share_block jsShareBlock">
-		<!-- CMS link -->
-		<a href="#" class="btn share_btn jsShareBtn"><span class="text_btn">SHARE</span><span class="close_share"><svg viewBox="0 0 16 16" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg></span></a>
-		<div class="jsSocialList" style="display: none;">
-			<ul class="list-unstyled social_list">
-				<li><a href="#"><svg viewBox="0 0 16 16" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use></svg>
-				 twitter</a></li>
-				<li><a href="#"><svg viewBox="0 0 16 16" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use></svg>facebook</a></li>
-				<li><a href="#"><svg viewBox="0 0 16 16" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-google"></use></svg>google+</a></li>
-				<li><a href="#"><svg viewBox="0 0 16 16" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-medium"></use></svg>medium</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
