@@ -547,7 +547,7 @@ li {
 // Projects
 
 .project_item {
-	background: @color-gray-lightest no-repeat;
+	background: @color-gray-lightest url(../fpo/project-list-thumbnail.png) no-repeat;
 	background-size: cover;
 	color: @color-white;
 	height: 750px;
@@ -777,6 +777,12 @@ li {
 }
 
 // Queries
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.project_item {
+	  background-image: url(../fpo/project-list-thumbnail-2x.png);
+	}
+}
 
 @media (min-width: 1200px) {
 	.container {

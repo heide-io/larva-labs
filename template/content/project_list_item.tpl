@@ -1,6 +1,6 @@
 <article class="col-md-6 col-xs-6">
 	<!-- CMS thumbnail -->
-	<div class="project_item" style="background-image: url('fpo/project-list-thumbnail-2x.png);">
+	<div class="project_item">
 		<!-- CMS link -->
 		<a href="project_item.php" class="project_txt">
 			<!-- CMS excerpt -->
