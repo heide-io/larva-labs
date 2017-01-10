@@ -21,7 +21,7 @@
 	<div class="container container_full">
 		<div class="image_block">
 			<picture>
-				<source data-srcset="/images/project-fpo.png, /images/project-fpo-2x.png 2x">
+				<source data-srcset="/images/project-fpo.png, /images/project-2x.png 2x">
 				<img src="/images/project-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 			</picture>
 			<p class="details">Full image block with caption</p>
@@ -33,13 +33,13 @@
 		<div class="row">
 			<div class="col-md-6 image_block">
 				<picture>
-					<source data-srcset="/images/image-block-square-fpo.png, /images/image-block-square-fpo-2x.png 2x">
+					<source data-srcset="/images/image-block-square-fpo.png, /images/image-block-square-2x.png 2x">
 					<img src="/images/image-block-square-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 				</picture>
 			</div>
 			<div class="col-md-6 image_block">
 				<picture>
-					<source data-srcset="/images/image-block-square-fpo.png, /images/image-block-square-fpo-2x.png 2x">
+					<source data-srcset="/images/image-block-square-fpo.png, /images/image-block-square-2x.png 2x">
 					<img src="/images/image-block-square-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 				</picture>
 			</div>
@@ -51,19 +51,19 @@
 		<div class="row">
 			<div class="col-md-4 image_block">
 				<picture>
-					<source data-srcset="/images/image-block-small-fpo.png, /images/image-block-small-fpo-2x.png 2x">
+					<source data-srcset="/images/image-block-small-fpo.png, /images/image-block-small-2x.png 2x">
 					<img src="/images/image-block-small-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 				</picture>
 			</div>
 			<div class="col-md-4 image_block">
 				<picture>
-					<source data-srcset="/images/image-block-small-fpo.png, /images/image-block-small-fpo-2x.png 2x">
+					<source data-srcset="/images/image-block-small-fpo.png, /images/image-block-small-2x.png 2x">
 					<img src="/images/image-block-small-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 				</picture>
 			</div>
 			<div class="col-md-4 image_block">
 				<picture>
-					<source data-srcset="/images/image-block-small-fpo.png, /images/image-block-small-fpo-2x.png 2x">
+					<source data-srcset="/images/image-block-small-fpo.png, /images/image-block-small-2x.png 2x">
 					<img src="/images/image-block-small-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 				</picture>
 			</div>
@@ -75,7 +75,7 @@
 		<div class="row">
 			<div class="col-md-6 image_block">
 				<picture>
-					<source data-srcset="/images/image-block-square-fpo.png, /images/image-block-square-fpo-2x.png 2x">
+					<source data-srcset="/images/image-block-square-fpo.png, /images/image-block-square-2x.png 2x">
 					<img src="/images/image-block-square-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 				</picture>
 			</div>
