@@ -15,11 +15,13 @@
 <body>
 <header class="container main_header">
 	<div class="row">
-		<div class="col-md-6">
-			<svg viewBox="0 0 16 26" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use></svg>
-			<a href="index.php" class="logo <?php echo ($page == "index" ? "active" : "")?>">Larva Labs</a>
+		<div class="col-md-3 col-xs-5">
+			<a href="index.php" class="logo <?php echo ($page == "index" ? "active" : "")?>">
+				<svg viewBox="0 0 16 26" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use></svg>
+				<span>Larva Labs</span>
+			</a>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-9 col-xs-7">
 			<nav class="main_navigation">
 				<ul class="list main_nav_list">
 					<?php include "template/common/nav.tpl"; ?>

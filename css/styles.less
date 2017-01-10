@@ -458,7 +458,7 @@ li {
 .main_header {
 	margin: @size-larger auto @size-largest;
 
-	.col-md-6 {
+	[class^="col-"] {
 		.flex;
 		.flex-align-center;
 		.flex-pack-start;
@@ -865,12 +865,16 @@ li {
 @media (max-width: 767px) {
 
 	[class^="col-"] {
-    float: none;
     padding: 0;
-    width: 100%;
-  }
+
+		&:not('.main_header') {
+			float: none;
+	    width: 100%;
+	  }
+	}
 
 	.main_header {
+		margin: @size-large auto @size-larger;
 
 		.box_newsletter {
 			margin: auto;
