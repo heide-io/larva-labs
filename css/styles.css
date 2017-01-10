@@ -496,6 +496,16 @@ li {
   padding-top: 0;
   padding-bottom: 0;
 }
+.index .inverse .btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.index .inverse .btn:hover {
+  background-color: #fff;
+  border: 2px solid #272727;
+  color: #272727;
+}
 .project_item {
   background: #f5f5f5 url(../fpo/project-list-thumbnail.png) no-repeat;
   background-size: cover;
