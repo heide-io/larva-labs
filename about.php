@@ -1,5 +1,5 @@
-<?php $page = "about"; ?>
-<?php include "template/common/header.tpl"; $title = "Hi, nice to meet you"; ?>
+<?php $page = "about"; $title = "Hi, nice to meet you"; ?>
+<?php include "template/common/header.tpl"; ?>
 
 <div class="page main_content">
 
