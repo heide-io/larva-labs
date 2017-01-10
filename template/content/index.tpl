@@ -6,7 +6,7 @@
 			<div class="col-md-4 text_block">
 				<h2>Client name: <br>Name of project</h2>
 				<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore.</p>
-				<a href="#" class="btn">READ MORE</a>
+				<a href="project_item.php" class="btn">READ MORE</a>
 			</div>
 			<div class="col-md-8 image_block">
 				<picture>
@@ -24,7 +24,7 @@
 				<div class="col-md-4 text_block">
 					<h2>Client name: <br>Name of project</h2>
 					<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore.</p>
-					<a href="#" class="btn">READ MORE</a>
+					<a href="project_item.php" class="btn">READ MORE</a>
 				</div>
 				<div class="col-md-2 spacer_block">
 				</div>
