@@ -752,8 +752,8 @@ li {
   .main_header .inner_wrap {
     padding-bottom: 0;
   }
-  .main_header .main_nav_list > li {
-    font-size: 15px;
+  .main_header .logo span {
+    display: none;
   }
   .main_header .main_nav_list > li:after {
     margin-left: 20px;
@@ -797,7 +797,7 @@ li {
   .blog_post .detail_block {
     display: none;
   }
-  .logo {
-    display: none;
+  .main_nav_list > li {
+    font-size: 15px;
   }
 }
