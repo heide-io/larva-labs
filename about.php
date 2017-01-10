@@ -16,5 +16,5 @@
 			</div>
 		</div>
 	</div>
-	
+
 <?php include "template/common/footer.tpl"; ?>
