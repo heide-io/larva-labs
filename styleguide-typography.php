@@ -1,5 +1,5 @@
 <?php $page = "styleguide"; ?>
-<?php include "template/common/header.tpl"; $title = "Typography"; ?>
+<?php include "http://localhost:8000/template/common/header.tpl"; $title = "Typography"; ?>
 
 <div class="inner_wrapper">
 	<div class="container">
@@ -42,7 +42,7 @@
 	</div>
 </div>
 
-<?php include "template/common/footer.tpl"; ?>
+<?php include "http://localhost:8000/template/common/footer.tpl"; ?>
 
 <!-- demo -->
 	<style>
