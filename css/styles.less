@@ -544,37 +544,30 @@ li {
 
 .index {
 
-	.row {
-		position: relative;
+	>.container:first-child {
+		margin-top: -@size-large;
+		padding-bottom: 0;
 	}
 
-	.col-md-4 {
-
-		h2 {
-			margin: @size-largest 0 0.5em;
-		}
-
-		.btn {
-			margin: @size-small 0 @size-larger;
-		}
+	h2 {
+		margin-top: @size-largest;
+		margin-bottom: 0.5em;
 	}
 
-	.container {
-		background-repeat: no-repeat;
-
-		>&:first-child {
-			.col-md-4 {
-				margin-top: 0;
-			}
-		}
+	.btn {
+		margin-top: @size-small;
+		margin-bottom: @size-largest;
 	}
 
-	.image_block {
-		margin: 0;
-		padding: 0;
+	[class$="_block"] {
+    margin-bottom: 0;
+	}
 
-		.img-responsive {
-	    width: auto;
+	.inverse {
+
+		.container {
+			padding-top: 0;
+			padding-bottom: 0;
 		}
 	}
 }

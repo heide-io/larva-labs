@@ -477,27 +477,24 @@ li {
   justify-content: space-between;
   padding: 70px 0;
 }
-.index .row {
-  position: relative;
+.index > .container:first-child {
+  margin-top: -50px;
+  padding-bottom: 0;
 }
-.index .col-md-4 h2 {
-  margin: 100px 0 0.5em;
+.index h2 {
+  margin-top: 100px;
+  margin-bottom: 0.5em;
 }
-.index .col-md-4 .btn {
-  margin: 30px 0 70px;
+.index .btn {
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
-.index .container {
-  background-repeat: no-repeat;
+.index [class$="_block"] {
+  margin-bottom: 0;
 }
- > .index .container:first-child .col-md-4 {
-  margin-top: 0;
-}
-.index .image_block {
-  margin: 0;
-  padding: 0;
-}
-.index .image_block .img-responsive {
-  width: auto;
+.index .inverse .container {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .project_item {
   background: #f5f5f5 url(../fpo/project-list-thumbnail.png) no-repeat;
