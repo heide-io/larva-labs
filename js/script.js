@@ -19,10 +19,10 @@ $( function () {
 	// styleguide
 	$('.styleguide').on('change load', '.jsTriggerTheme', function() {
 		if($(".jsTriggerTheme").is(':checked')) {
-			$('body').addClass('inverse_page')
+			$('body').addClass('inverse')
 		}
 		else {
-			$('body').removeClass('inverse_page')
+			$('body').removeClass('inverse')
 		}
 	});
 

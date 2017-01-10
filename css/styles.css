@@ -91,9 +91,6 @@ h4 {
   line-height: 1.4em;
   margin-bottom: 0.4em;
 }
-.img-responsive {
-  width: 100%;
-}
 p {
   margin-bottom: 10px;
 }
@@ -118,16 +115,16 @@ p.small {
   font-weight: 400;
   line-height: 1.7em;
 }
-.container:not(.container_full):not(.container_indent) {
+.container {
   max-width: 1170px;
   padding: 0 50px;
 }
-.container:not(.container_full):not(.container_indent) .img-responsive {
+.container .img-responsive {
   width: 100%;
 }
 .container_full {
-  padding-left: 0;
-  padding-right: 0;
+  max-width: none;
+  padding: 0;
   width: 100%;
 }
 blockquote {
@@ -480,6 +477,28 @@ li {
   justify-content: space-between;
   padding: 70px 0;
 }
+.index .row {
+  position: relative;
+}
+.index .col-md-4 h2 {
+  margin: 100px 0 0.5em;
+}
+.index .col-md-4 .btn {
+  margin: 30px 0 70px;
+}
+.index .container {
+  background-repeat: no-repeat;
+}
+ > .index .container:first-child .col-md-4 {
+  margin-top: 0;
+}
+.index .image_block {
+  margin: 0;
+  padding: 0;
+}
+.index .image_block .img-responsive {
+  width: auto;
+}
 .project_item {
   background: #f5f5f5 url(../fpo/project-list-thumbnail.png) no-repeat;
   background-size: cover;
@@ -570,107 +589,102 @@ li {
 .text_block p:last-child {
   margin-bottom: 0;
 }
-.inverse_page {
+.inverse {
   background-color: #181818;
 }
-.inverse_page a {
+.inverse a {
   color: #fff;
 }
-.inverse_page a:hover,
-.inverse_page a:focus,
-.inverse_page a.active {
+.inverse a:hover,
+.inverse a:focus,
+.inverse a.active {
   color: #ff04b4;
 }
-.inverse_page h1,
-.inverse_page h2,
-.inverse_page h3,
-.inverse_page h4,
-.inverse_page h5,
-.inverse_page h6,
-.inverse_page .h1,
-.inverse_page .h2,
-.inverse_page .h3,
-.inverse_page .h4,
-.inverse_page .h5,
-.inverse_page .h6 {
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse h4,
+.inverse h5,
+.inverse h6,
+.inverse .h1,
+.inverse .h2,
+.inverse .h3,
+.inverse .h4,
+.inverse .h5,
+.inverse .h6 {
   color: #fff;
 }
-.inverse_page .list,
-.inverse_page .quote,
-.inverse_page .small,
-.inverse_page .custom-control-description {
+.inverse .list,
+.inverse .quote,
+.inverse .small,
+.inverse .custom-control-description {
   color: #fff;
 }
-.inverse_page .btn {
+.inverse .btn {
   background-color: #fff;
   border: 2px solid #fff;
   color: #181818;
 }
-.inverse_page .btn:hover {
+.inverse .btn:hover {
   background-color: #ff04b4;
   border: 2px solid #ff04b4;
   color: #fff;
 }
-.inverse_page .btn.btn_inverse {
+.inverse .btn.btn_inverse {
   background-color: #181818;
   border: 2px solid #ddd;
   color: #fff;
 }
-.inverse_page .btn.btn_inverse:hover {
+.inverse .btn.btn_inverse:hover {
   background-color: #f5f5f5;
   border: 2px solid #f5f5f5;
   color: #181818;
 }
-.inverse_page .custom-control-indicator {
+.inverse .custom-control-indicator {
   background-color: #4d4d4d;
 }
-.inverse_page .select {
+.inverse .select {
   background-color: #272727;
   color: #fff;
 }
-.inverse_page .select .dropdown-toggle {
+.inverse .select .dropdown-toggle {
   color: #fff;
 }
-.inverse_page .select .dropdown-menu {
+.inverse .select .dropdown-menu {
   background-color: #181818;
 }
-.inverse_page .select .dropdown-menu li {
+.inverse .select .dropdown-menu li {
   background-color: #272727;
 }
-.inverse_page .select .dropdown-menu li:hover,
-.inverse_page .select .dropdown-menu li.active {
+.inverse .select .dropdown-menu li:hover,
+.inverse .select .dropdown-menu li.active {
   color: #fff;
 }
-.inverse_page .select svg {
+.inverse .select svg {
   fill: #fff;
 }
-.inverse_page .main_footer .box_newsletter .form-control,
-.inverse_page .main_footer .box_newsletter .form-control::-webkit-input-placeholder,
-.inverse_page .main_footer .box_newsletter .form-control::-moz-placeholder,
-.inverse_page .main_footer .box_newsletter .form-control:-ms-input-placeholder,
-.inverse_page .main_footer .box_newsletter .form-control:-moz-placeholder {
+.inverse .main_footer .box_newsletter .form-control,
+.inverse .main_footer .box_newsletter .form-control::-webkit-input-placeholder,
+.inverse .main_footer .box_newsletter .form-control::-moz-placeholder,
+.inverse .main_footer .box_newsletter .form-control:-ms-input-placeholder,
+.inverse .main_footer .box_newsletter .form-control:-moz-placeholder {
   color: #181818;
 }
-.inverse_page .form-control {
+.inverse .form-control {
   background-color: #272727;
   color: #fff;
 }
-.inverse_page .form-control:focus {
+.inverse .form-control:focus {
   background-color: transparent;
   border-bottom: 1px solid #fff;
 }
-.inverse_page .form-control::-webkit-input-placeholder,
-.inverse_page .form-control::-moz-placeholder,
-.inverse_page .form-control:-ms-input-placeholder,
-.inverse_page .form-control:-moz-placeholder,
-.inverse_page .form-control:placeholder {
+.inverse .form-control::-webkit-input-placeholder,
+.inverse .form-control::-moz-placeholder,
+.inverse .form-control:-ms-input-placeholder,
+.inverse .form-control:-moz-placeholder,
+.inverse .form-control:placeholder {
   background-color: #272727;
   color: #fff;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .project_item {
-    background-image: url(../fpo/project-list-thumbnail-2x.png);
-  }
 }
 @media (min-width: 1200px) {
   .container {

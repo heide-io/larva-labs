@@ -138,10 +138,6 @@ h4 {
 	margin-bottom: 0.4em;
 }
 
-.img-responsive {
-	width: 100%;
-}
-
 p {
 	margin-bottom: @size-smallest;
 
@@ -173,7 +169,7 @@ p {
 
 // Containers
 
-.container:not(.container_full):not(.container_indent) {
+.container {
 	max-width: 1170px;
 	padding: 0 @size-large;
 
@@ -183,8 +179,8 @@ p {
 }
 
 .container_full {
-	padding-left: 0;
-	padding-right: 0;
+	max-width: none;
+	padding: 0;
 	width: 100%;
 }
 
@@ -544,6 +540,45 @@ li {
 	}
 }
 
+// Index
+
+.index {
+
+	.row {
+		position: relative;
+	}
+
+	.col-md-4 {
+
+		h2 {
+			margin: @size-largest 0 0.5em;
+		}
+
+		.btn {
+			margin: @size-small 0 @size-larger;
+		}
+	}
+
+	.container {
+		background-repeat: no-repeat;
+
+		>&:first-child {
+			.col-md-4 {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.image_block {
+		margin: 0;
+		padding: 0;
+
+		.img-responsive {
+	    width: auto;
+		}
+	}
+}
+
 // Projects
 
 .project_item {
@@ -667,7 +702,7 @@ li {
 
 // Inverse
 
-.inverse_page {
+.inverse {
 	background-color: @color-gray-darkest;
 
 	a {
@@ -777,12 +812,6 @@ li {
 }
 
 // Queries
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	.project_item {
-	  background-image: url(../fpo/project-list-thumbnail-2x.png);
-	}
-}
 
 @media (min-width: 1200px) {
 	.container {

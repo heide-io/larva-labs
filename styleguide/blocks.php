@@ -17,7 +17,7 @@
 	<div class="row">
 		<div class="col-md-6">
 			<svg viewBox="0 0 16 26" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use></svg>
-			<a href="index.php" class="logo <?php echo ($page == "index" ? "active" : "")?>">Larva Labs</a>
+			<a href="../index.php" class="logo <?php echo ($page == "index" ? "active" : "")?>">Larva Labs</a>
 		</div>
 		<div class="col-md-6">
 			<nav class="main_navigation">

@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv=X-UA-Compatible content="IE=11">
 	<title>Styleguide</title>
-	<link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="components/bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../components/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../components/bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="../css/styles.css">
 	<style>dl{font-size:15px}.dl-horizontal dd,.dl-horizontal dt{margin-bottom:30px}h1,h2,h3{margin:0}h4{margin:70px 0}</style>
 </head>
 <body>
@@ -17,8 +17,7 @@
 <header class="container main_header">
 	<div class="row">
 		<div class="col-md-6">
-			<svg viewBox="0 0 16 26" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use></svg>
-			<a href="index.php" class="logo <?php echo ($page == "index" ? "active" : "")?>">Larva Labs</a>
+			Larva Labs Styleguide
 		</div>
 		<div class="col-md-6">
 			<nav class="main_navigation">
