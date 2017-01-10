@@ -20,8 +20,8 @@
 <!-- main image block -->
 <div class="container container_full image_block">
 	<picture>
-		<source data-srcset="/images/project-main-fpo.png, /images/project-main-2x.png 2x">
-		<img src="/images/project-main-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
+		<source data-srcset="fpo/project-main-fpo.png, fpo/project-main-2x.png 2x">
+		<img src="fpo/project-main-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 	</picture>
 </div>
 
@@ -34,8 +34,8 @@
 <!-- image block -->
 <div class="container image_block">
 	<picture>
-		<source data-srcset="/images/project-fpo.png, /images/project-2x.png 2x">
-		<img src="/images/project-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
+		<source data-srcset="fpo/project-fpo.png, fpo/project-2x.png 2x">
+		<img src="fpo/project-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
 	</picture>
 </div>
 

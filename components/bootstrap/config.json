@@ -381,7 +381,7 @@
     "@dl-horizontal-breakpoint": "@grid-float-breakpoint",
     "@hr-border": "@gray-lighter"
   },
-  "css": [
+  "/css": [
     "print.less",
     "type.less",
     "code.less",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=444e42b14ed1ba551903f5fc8bd765df"
+  "customizerUrl": "//getbootstrap.com/customize/?id=444e42b14ed1ba551903f5fc8bd765df"
 }

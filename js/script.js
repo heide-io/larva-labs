@@ -15,4 +15,15 @@ $( function () {
 		$(this).closest('.jsShareBlock').toggleClass('active');
 		$('.jsSocialList').slideToggle();
 	});
+
+	// styleguide
+	$('.styleguide').on('change load', '.jsTriggerTheme', function() {
+		if($(".jsTriggerTheme").is(':checked')) {
+			$('body').addClass('inverse_page')
+		}
+		else {
+			$('body').removeClass('inverse_page')
+		}
+	});
+
 });

@@ -109,13 +109,8 @@ code {
 	color: @color-gray-darker;
 }
 
-dl {
-	font-size: @font-small;
-}
-
-.dl-horizontal dt,
-.dl-horizontal dd {
-	margin-bottom: 5px;
+dt {
+	margin-bottom: @size-smallest;
 }
 
 h1, h2, h3, h4 {
@@ -142,10 +137,6 @@ h4 {
 	line-height: 1.4em;
 	margin-bottom: 0.4em;
 }
-
-// img {
-// 	margin: auto;
-// }
 
 .img-responsive {
 	width: 100%;
@@ -218,7 +209,7 @@ blockquote {
 	}
 }
 
-//  Checkbox
+// Checkbox
 
 .custom-control {
 	.flex;
@@ -262,7 +253,7 @@ blockquote {
 	}
 }
 
-//  Buttons
+// Buttons
 
 .btn {
 	background-color: @color-gray-darkest;
@@ -308,7 +299,7 @@ blockquote {
 	}
 }
 
-//  Input
+// Input
 
 .form-control {
 	background-color: @color-gray-lightest;
@@ -334,9 +325,9 @@ blockquote {
 	color: @color-gray-darkest;
 }
 
-//  Select
+// Select
 
-.custom_dropdown {
+.select {
 	background-color: @color-gray-lightest;
 	color: @color-gray-darkest;
 
@@ -380,7 +371,7 @@ blockquote {
 	}
 }
 
-//  Lists
+// Lists
 
 ul {
 	padding-left: @font-small;
@@ -464,7 +455,7 @@ li {
 	}
 }
 
-//  Header
+// Header
 
 .main_header {
 	margin: @size-larger auto @size-largest;
@@ -499,7 +490,7 @@ li {
 	}
 }
 
-//  Footer
+// Footer
 
 .main_footer {
 	background-color: @color-gray-lightest;
@@ -554,7 +545,7 @@ li {
 	}
 }
 
-//  Projects
+// Projects
 
 .project_item {
 	background: @color-gray-lightest no-repeat;
@@ -587,7 +578,7 @@ li {
 	padding: @size-medium;
 }
 
-//  Blog
+// Blog
 
 .blog_item {
 	border: 1px solid @color-gray-lighter;
@@ -621,7 +612,7 @@ li {
 	}
 }
 
-//  Blocks
+// Blocks
 
 [class$="_block"] {
 	margin-bottom: @size-larger;
@@ -798,7 +789,7 @@ li {
 	}
 }
 
-//  Inverse
+// Inverse
 
 .inverse_page {
 	background-color: @color-gray-darkest;
@@ -852,7 +843,7 @@ li {
 		background-color: @color-gray-dark;
 	}
 
-	.custom_dropdown {
+	.select {
 		background-color: @color-gray-darker;
 		color: @color-white;
 
@@ -909,7 +900,7 @@ li {
 	}
 }
 
-//  Share toggle
+// Share toggle
 
 .tgl {
   display: none; }
@@ -993,14 +984,14 @@ li {
           transform: rotateY(20deg);
 }
 
-//  Queries
+// Queries
 
 @media (min-width: 1200px) {
 	.container {
 		width: 100%;
 	}
 }
-// DEBUG HEADER
+
 @media (min-width: 992px) {
 	.container {
 		width: 100%;

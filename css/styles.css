@@ -65,12 +65,8 @@ code {
   background-color: #f5f5f5;
   color: #272727;
 }
-dl {
-  font-size: 15px;
-}
-.dl-horizontal dt,
-.dl-horizontal dd {
-  margin-bottom: 5px;
+dt {
+  margin-bottom: 10px;
 }
 h1,
 h2,
@@ -148,8 +144,8 @@ blockquote footer {
   font: inherit;
 }
 blockquote:before {
-  color: #ff04b4;
-  content: '"';
+  background: url('/assets/icon-blockquote.svg');
+  width: 30px;
 }
 .custom-control {
   display: -webkit-box;
@@ -257,11 +253,11 @@ blockquote:before {
 .form-control::placeholder {
   color: #181818;
 }
-.custom_dropdown {
+.select {
   background-color: #f5f5f5;
   color: #181818;
 }
-.custom_dropdown .dropdown-toggle {
+.select .dropdown-toggle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -277,7 +273,7 @@ blockquote:before {
   font-size: 15px;
   padding: 15px 20px;
 }
-.custom_dropdown .dropdown-menu {
+.select .dropdown-menu {
   border: none;
   box-shadow: none;
   font-size: 15px;
@@ -286,18 +282,18 @@ blockquote:before {
   padding: 0;
   width: 100%;
 }
-.custom_dropdown .dropdown-menu li {
+.select .dropdown-menu li {
   background-color: #f5f5f5;
   cursor: pointer;
   padding: 15px 20px;
   margin: 1px 0;
 }
-.custom_dropdown .dropdown-menu li:hover,
-.custom_dropdown .dropdown-menu li.active {
+.select .dropdown-menu li:hover,
+.select .dropdown-menu li.active {
   color: #ff04b4;
   font-weight: 700;
 }
-.custom_dropdown svg {
+.select svg {
   fill: #181818;
   height: 6px;
   width: 11px;
@@ -743,24 +739,24 @@ li {
 .inverse_page .custom-control-indicator {
   background-color: #4d4d4d;
 }
-.inverse_page .custom_dropdown {
+.inverse_page .select {
   background-color: #272727;
   color: #fff;
 }
-.inverse_page .custom_dropdown .dropdown-toggle {
+.inverse_page .select .dropdown-toggle {
   color: #fff;
 }
-.inverse_page .custom_dropdown .dropdown-menu {
+.inverse_page .select .dropdown-menu {
   background-color: #181818;
 }
-.inverse_page .custom_dropdown .dropdown-menu li {
+.inverse_page .select .dropdown-menu li {
   background-color: #272727;
 }
-.inverse_page .custom_dropdown .dropdown-menu li:hover,
-.inverse_page .custom_dropdown .dropdown-menu li.active {
+.inverse_page .select .dropdown-menu li:hover,
+.inverse_page .select .dropdown-menu li.active {
   color: #fff;
 }
-.inverse_page .custom_dropdown svg {
+.inverse_page .select svg {
   fill: #fff;
 }
 .inverse_page .main_footer .box_newsletter .form-control,

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="components/bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
-	<!-- Change to LESS -->
+	<!-- production -->
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -27,5 +27,4 @@
 			</nav>
 		</div>
 	</div>
-	<a href="#" class="menu_mobile_btn visible-xs-block jsNavBt"><i></i><i></i><i></i></a>
 </header>

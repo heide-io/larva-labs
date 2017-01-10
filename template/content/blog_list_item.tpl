@@ -4,8 +4,8 @@
 		<!-- CMS thumbnail and title -->
 		<div class="blog_img">
 			<picture>
-				<source data-srcset="/images/blog-list-thumbnail-fpo.png, /images/blog-list-thumbnail-2x.png 2x">
-				<img src="/images/blog-list-thumbnail-fpo.png" alt="Androidify Yourself in Times Square" class="img-responsive lazyload">
+				<source data-srcset="fpo/blog-list-thumbnail-fpo.png, fpo/blog-list-thumbnail-2x.png 2x">
+				<img src="fpo/blog-list-thumbnail-fpo.png" alt="Androidify Yourself in Times Square" class="img-responsive lazyload">
 			</picture>
 		</div>
 		<div class="blog_txt">
