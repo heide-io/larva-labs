@@ -459,12 +459,6 @@ li {
 .main_footer .footer_nav_list > li a {
   font-size: 15px;
 }
-.main_footer .footer_nav_list > li:after {
-  margin-right: 50px;
-}
-.main_footer .footer_nav_list > li:last-child::after {
-  display: none;
-}
 .main_footer .inner_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
