@@ -127,6 +127,13 @@ p.small {
   padding: 0;
   width: 100%;
 }
+#icon-facebook,
+#icon-google,
+#icon-logo,
+#icon-medium,
+#icon-twitter {
+  fill: #ff04b4;
+}
 blockquote {
   border: none;
   color: #181818;
