@@ -18,7 +18,7 @@
 	<div class="row">
 		<div class="col-md-6">
 			<svg viewBox="0 0 16 26" y="0" x="0"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-logo"></use></svg>
-			<a href="../index.php" class="logo <?php echo ($page == "index" ? "active" : "")?>">Larva Labs</a>
+			<a href="index.php" class="logo <?php echo ($page == "index" ? "active" : "")?>">Larva Labs</a>
 		</div>
 		<div class="col-md-6">
 			<nav class="main_navigation">
@@ -71,6 +71,15 @@
 		</div>
 	</div>
 </div>
+
+<svg hidden>
+	<defs>
+		<g id="icon-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g fill="#FF04B4">
+						<path d="M0,3.5 C0,1.56700338 1.57093664,0 3.5,0 C5.43299662,0 7,1.57093664 7,3.5 C7,5.43299662 5.42906336,7 3.5,7 C1.56700338,7 0,5.42906336 0,3.5 Z M0,13.5 C0,11.5670034 1.57093664,10 3.5,10 C5.43299662,10 7,11.5709366 7,13.5 C7,15.4329966 5.42906336,17 3.5,17 C1.56700338,17 0,15.4290634 0,13.5 Z M0,22.5 C0,20.5670034 1.57093664,19 3.5,19 C5.43299662,19 7,20.5709366 7,22.5 C7,24.4329966 5.42906336,26 3.5,26 C1.56700338,26 0,24.4290634 0,22.5 Z M12,4 C12,2.8954305 12.8877296,2 14,2 C15.1045695,2 16,2.88772964 16,4 C16,5.1045695 15.1122704,6 14,6 C12.8954305,6 12,5.11227036 12,4 Z M12,14 C12,12.8954305 12.8877296,12 14,12 C15.1045695,12 16,12.8877296 16,14 C16,15.1045695 15.1122704,16 14,16 C12.8954305,16 12,15.1122704 12,14 Z M12,23 C12,21.8954305 12.8877296,21 14,21 C15.1045695,21 16,21.8877296 16,23 C16,24.1045695 15.1122704,25 14,25 C12.8954305,25 12,24.1122704 12,23 Z" id="logo"></path>
+				</g>
+		</g>
+</svg>
 
 <script src="components/jquery-2.2.4.min.js"></script>
 <script src="components/bootstrap/js/bootstrap.min.js"></script>

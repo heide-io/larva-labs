@@ -21,6 +21,12 @@
 @size-larger: 70px;
 @size-largest: 100px;
 
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	border-radius: @radius;
+	border-radius: @radius;
+}
+
 .flex {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -74,10 +80,13 @@
 	font-family: @font-base 'Montserrat',arial,helvetica,sans-serif;
 }
 
-.border-radius(@radius) {
-	-webkit-border-radius: @radius;
-	border-radius: @radius;
-	border-radius: @radius;
+.rotate(@deg) {
+  -webkit-transform: rotate(@deg * 1deg);
+  -moz-transform: rotate(@deg * 1deg);
+  transform: rotate(@deg * 1deg);
+  -o-transform: rotate(@deg * 1deg);
+  @IEdeg: round(@deg / 90, 0);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=@IEdeg);
 }
 
 .relative {
@@ -227,6 +236,7 @@ blockquote {
 	.flex-pack-start;
 	.flex-wrap;
 	cursor: pointer;
+	margin-bottom: 0;
 
 	&-description {
 		color: @color-gray-darkest;
@@ -278,7 +288,7 @@ blockquote {
 		background-color: @color-magenta;
 	}
 
-	&.btn_inverse {
+	&.btn_secondary {
 		background-color: @color-white;
 		border: 2px solid @color-gray-darkest;
 		color: @color-gray-darkest;
@@ -310,13 +320,17 @@ blockquote {
 // Input
 
 .form-control {
+	.flex;
+	.flex-align-center;
+	.flex-wrap;
+	.flex-pack-justify;
 	background-color: @color-gray-lightest;
 	border: none;
 	box-shadow: none;
 	color: @color-gray-darkest;
 	font-size: @font-small;
-	height: @size-medium;
-	padding: 5px @size-smaller;
+	height: @size-large;
+	padding: @font-smallest @size-smaller;
 
 	&:focus {
 		background-color: transparent;
@@ -346,7 +360,22 @@ blockquote {
 		.flex-pack-justify;
 		color: @color-gray-darkest;
 		font-size: @font-small;
-		padding: @font-small @size-smaller;
+		height: @size-large;
+		padding: @font-smallest @size-smaller;
+		position: relative;
+
+		&:after {
+			background: url('/assets/icon-caret.svg') 0% 50% no-repeat;
+			content: '';
+			background-size: @font-smaller;
+			display: block;
+			height: @size-large;
+			width: @font-smaller;
+		}
+	}
+
+	&.open .dropdown-toggle:after {
+		.rotate(180deg);
 	}
 
 	.dropdown-menu {
@@ -359,10 +388,18 @@ blockquote {
 		width: 100%;
 
 		li {
+			.flex;
+			.flex-align-center;
+			.flex-wrap;
+			.flex-pack-justify;
 			background-color: @color-gray-lightest;
+			color: @color-gray-darkest;
 			cursor: pointer;
-			padding: @font-small @size-smaller;
+			font-size: @font-small;
+			height: @size-large;
 			margin: 1px 0;
+			overflow: hidden;
+			padding: @font-smallest @size-smaller;
 
 			&:hover,
 			&.active {
@@ -504,21 +541,18 @@ li {
 	background-color: @color-gray-lightest;
 
 	.box_newsletter {
-		-webkit-box-flex: 1;
-		-ms-flex-positive: 1;
-		flex-grow: 1;
-		max-width: 350px;
 		position: relative;
+		width: 350px;
 
 		.bt {
-			background: url('/assets/icon-rarr.svg') no-repeat;
-			background-size: 100%;
-			border: none;
-			height: @font-small;
-			position: absolute;
-			right: 17px;
-			top: 13px;
-			width: 22px;
+			background: url('/assets/icon-rarr.svg')0% 50% no-repeat;
+	    background-size: 25px;
+	    border: none;
+	    position: absolute;
+	    top: 0;
+	    right: @size-smallest;
+	    height: @size-large;
+	    width: @size-small;
 		}
 
 		.form-control {
@@ -583,6 +617,11 @@ li {
 		    background-color: @color-white;
 		    border: 2px solid @color-gray-darker;
 		    color: @color-gray-darker;
+			}
+
+			&:active,
+			&.active {
+				box-shadow: none;
 			}
 		}
 	}
@@ -746,7 +785,7 @@ li {
 			color: @color-white;
 		}
 
-		&.btn_inverse {
+		&.btn_secondary {
 			background-color: @color-gray-darkest;
 			border: 2px solid @color-gray-lighter;
 			color: @color-white;
@@ -810,8 +849,9 @@ li {
 		}
 	}
 
-	.form-control::-webkit-input-placeholder,
-	.form-control::-moz-placeholder,
+	/* debug */
+	.form-control:-webkit-input-placeholder,
+	.form-control:-moz-placeholder,
 	.form-control:-ms-input-placeholder,
 	.form-control:-moz-placeholder,
 	.form-control:placeholder {
