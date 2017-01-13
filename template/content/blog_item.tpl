@@ -1,4 +1,4 @@
-<div class="blog_post main_content">
+<div class="main_content blog_post">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-1 spacer_block">
@@ -17,11 +17,15 @@
 	</div>
 
 	<!-- image_block -->
-	<div class="container image_block">
-		<picture>
-			<source data-srcset="fpo/blog-list-thumbnail-fpo.png, fpo/blog-list-thumbnail-2x.png 2x">
-			<img src="fpo/blog-list-thumbnail-fpo.png" alt="Androidify Yourself in Times Square" class="img-responsive lazyload">
-		</picture>
+	<div class="container_full">
+		<div class="row">
+			<div class="col-md-12 image_block">
+				<picture>
+					<source data-srcset="fpo/blog-post-image-fpo.png, fpo/blog-post-image-2x.png 2x">
+					<img src="fpo/blog-post-image-fpo.png" alt="Androidify Yourself in Times Square" class="img-responsive lazyload">
+				</picture>
+			</div>
+		</div>
 	</div>
 
 	<!-- text_block indented -->

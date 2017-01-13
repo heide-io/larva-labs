@@ -1,4 +1,4 @@
-<div class="index main_content">
+<div class="main_content index">
 
 	<!-- default container -->
 	<div class="container">
@@ -10,8 +10,8 @@
 			</div>
 			<div class="col-md-8 image_block">
 				<picture>
-					<source data-srcset="fpo/index.png, fpo/index-2x.png 2x">
-					<img src="fpo/index.png" alt="Androidify Yourself in Times Square" class="img-responsive lazyload">
+					<source data-srcset="fpo/index-image.png, fpo/index-image-2x.png 2x">
+					<img src="fpo/index-image.png" alt="Androidify Yourself in Times Square" class="img-responsive lazyload">
 				</picture>
 			</div>
 		</div>

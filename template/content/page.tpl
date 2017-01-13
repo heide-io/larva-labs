@@ -1,4 +1,4 @@
-<div class="page main_content">
+<div class="main_content page">
 
 	<!-- text_block indented -->
 	<div class="container">
