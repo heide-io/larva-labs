@@ -1,4 +1,4 @@
-<article class="col-md-6 col-xs-6">
+<article class="col-md-6 col-xs-12">
 	<!-- CMS thumbnail -->
 	<div class="project_item">
 		<!-- CMS link -->

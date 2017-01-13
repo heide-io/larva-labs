@@ -1,4 +1,4 @@
-<article class="col-md-4 col-xs-6">
+<article class="col-md-4 col-xs-12">
 	<!-- CMS link -->
 	<a href="blog_item.php" class="blog_item">
 		<!-- CMS thumbnail and title -->
