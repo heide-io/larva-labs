@@ -47,14 +47,15 @@
 		</div>
 	</div>
 
-	<!-- image block -->
-	<div class="container container_full">
-		<div class="image_block">
-			<picture>
-				<source data-srcset="fpo/project-fpo.png, fpo/project-2x.png 2x">
-				<img src="fpo/project-fpo.png" alt="Google Androidify" class="img-responsive lazyload">
-			</picture>
-			<p class="details">Full image block with caption</p>
+	<!-- image_block -->
+	<div class="container_full">
+		<div class="row">
+			<div class="col-md-12 image_block">
+				<picture>
+					<source data-srcset="fpo/blog-list-thumbnail-fpo.png, fpo/blog-list-thumbnail-2x.png 2x">
+					<img src="fpo/blog-list-thumbnail-fpo.png" alt="Androidify Yourself in Times Square" class="img-responsive lazyload">
+				</picture>
+			</div>
 		</div>
 	</div>
 
@@ -118,14 +119,16 @@
 
 	<!-- code block -->
 	<div class="container">
-		<div class="code_block">
-			<code>
-				.animated &#123; <br>
-			  &nbsp;&nbsp;webkit-animation-duration: infinite;<br>
-			  &nbsp;&nbsp;animation-duration: infinite;<br>
-			  &nbsp;&nbsp;animation-timing-function: cubic-bezier(0.75, 0.05, 0.85, 0.06);<br>
-				&#125;
-			</code>
+		<div class="row">
+			<div class="col-md-12 code_block">
+				<code>
+					.animated &#123; <br>
+				  &nbsp;&nbsp;webkit-animation-duration: infinite;<br>
+				  &nbsp;&nbsp;animation-duration: infinite;<br>
+				  &nbsp;&nbsp;animation-timing-function: cubic-bezier(0.75, 0.05, 0.85, 0.06);<br>
+					&#125;
+				</code>
+			</div>
 		</div>
 	</div>
 
