@@ -652,6 +652,10 @@ li {
 
 	h3 {
 		color: @color-white;
+
+		span {
+			display: block;
+		}
 	}
 
 	p {
@@ -662,7 +666,6 @@ li {
 
 .project_txt {
 	display: block;
-	padding: @size-medium;
 }
 
 // Blog
@@ -908,6 +911,10 @@ li {
 	.project_item {
 		min-height: 750px;
 	}
+
+	.project_txt {
+		padding: @size-large;
+	}
 }
 
 @media (max-width: 767px) {
@@ -991,10 +998,6 @@ li {
 		h3 {
 			font-size: @font-base;
 			line-height: 1.5em;
-
-			span {
-				display: block;
-			}
 		}
 
 		p {

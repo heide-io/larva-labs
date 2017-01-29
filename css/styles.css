@@ -572,13 +572,15 @@ li {
 .project_item h3 {
   color: #fff;
 }
+.project_item h3 span {
+  display: block;
+}
 .project_item p {
   color: #fff;
   font-weight: 400;
 }
 .project_txt {
   display: block;
-  padding: 40px;
 }
 .blog_item {
   border: 1px solid #ddd;
@@ -779,6 +781,9 @@ li {
   .project_item {
     min-height: 750px;
   }
+  .project_txt {
+    padding: 50px;
+  }
 }
 @media (max-width: 767px) {
   [class^="col-"]:not('.main_header') {
@@ -838,9 +843,6 @@ li {
   .project_item h3 {
     font-size: 18px;
     line-height: 1.5em;
-  }
-  .project_item h3 span {
-    display: block;
   }
   .project_item p {
     font-size: calc(15.3px);
