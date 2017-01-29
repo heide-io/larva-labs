@@ -1,8 +1,6 @@
 <div class="main_content project">
 	<div class="container item_header">
 		<div class="row">
-			<div class="col-md-1 spacer_block">
-			</div>
 			<div class="col-md-10 header_block">
 				<!-- CMS category -->
 				<a href="project_list.php#category" class="category_btn">Category</a>
@@ -11,7 +9,7 @@
 				<!-- CMS excerpt -->
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis laboris nisi ut aliquip ex consequat. Duis aute irure dolor voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur proident in culpa qui officia. Mollit anim sed laborum eiusmod buie tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
-			<div class="col-md-1 spacer_block">
+			<div class="col-md-2 spacer_block">
 			</div>
 		</div>
 	</div>

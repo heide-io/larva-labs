@@ -1,15 +1,17 @@
 <footer class="main_footer">
 	<div class="container">
-		<div class="inner_wrap">
-			<ul class="list footer_nav_list">
-				<?php include "template/common/nav.tpl"; ?>
-			</ul>
+		<div class="col-md-6 col-xs-12">
 			<div class="box_newsletter">
 				<form>
 					<input class="form-control" type="email" placeholder="Join our newsletter!">
 					<button type="submit" class="bt"></button>
 				</form>
 			</div>
+		</div>
+		<div class="col-md-6 col-xs-12">
+			<ul class="list footer_nav_list">
+				<?php include "template/common/nav.tpl"; ?>
+			</ul>
 		</div>
 	</div>
 </footer>
